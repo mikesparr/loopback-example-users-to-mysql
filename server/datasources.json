@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory",
+	"file": "db.json"
+  },
+  "accountDs": {
+    "host": "localhost",
+    "port": 3306,
+    "database": "loopback_test",
+    "username": "python_user",
+    "password": "dba",
+    "name": "accountDs",
+    "connector": "mysql"
+  }
+}
